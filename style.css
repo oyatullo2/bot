@@ -1,0 +1,71 @@
+body{
+    margin: 0px;
+    padding: 0px;
+}
+.section1{
+    display: flex;
+
+}
+.asosiy{
+    padding: 70px 100px;
+}
+.fieldset1{
+    width: 100px;
+    padding: 8px;
+    margin-left: 20px;
+    margin-bottom: 20px;
+}
+.fieldset-img2{
+    width: 260px;
+    height: 194px;
+}
+.fieldset-texts{
+    display: flex;
+    margin-top: -10px;
+    margin-bottom: -15px;
+    gap: 10px;
+}
+.fieldset-text1{
+    font-size: 18px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: grey;
+    font-weight: 600;
+    text-decoration: line-through;
+    text-decoration-color: red;
+}
+.fieldset-text2{
+    font-size: 18px;
+    margin-right: 30px;
+    font-weight: 600;
+    color: green;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.fieldset-text3{
+    font-size: 18px;
+    font-weight: 600;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: linear-gradient(45deg,red,blue);
+    color: transparent;
+    background-clip: text;
+}
+@media screen and (max-width:1400px) {
+    .asosiy{
+        width: 320px;
+        margin: 0px auto;
+        padding: 10px 0px;
+    }
+    .section1{
+        display: flex;
+        margin: 0px auto;
+    }
+    #fieldset2{
+        top: 880px;
+        right: 300px;
+        position: relative;
+    }
+    #fieldset4{
+        position: relative;
+        top: 295px;
+        right: 300px;
+    }
+}
